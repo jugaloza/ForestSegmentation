@@ -13,7 +13,7 @@ class GenerateData(Dataset):
         super().__init__()
 
         self.files = pd.read_csv("meta_data.csv")
-        self.transform = Compose([Resize(size=(128,128)),Normalize(mean=[0.34,0.33,0.23],std=[0.10,0.08,0.07])])
+        #self.transform = Compose([Resize(size=(128,128)),Normalize(mean=[0.34,0.33,0.23],std=[0.10,0.08,0.07])])
         self.maskTransform = Resize(size=(128,128))
         self.imageTransform = Resize(size=(128,128))
         
