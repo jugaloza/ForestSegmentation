@@ -27,7 +27,3 @@ I have used Binary Jaccard Index as evaluation metric for evaulating model.
 # Model Optimization
 
 For model optimization, I used TensorRT for faster inference on GPU with PyCUDA.
-
-# Inference Results
-
-![Alt Text](./Predicted_Masks/Pred_mask_01.jpg)
