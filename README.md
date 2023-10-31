@@ -29,4 +29,5 @@ I have used Binary Jaccard Index as evaluation metric for evaulating model.
 For model optimization, I used TensorRT for faster inference on GPU with PyCUDA.
 
 # Inference Results
-![login](https://github.com/jugaloza/ForestSegmentation/blob/main/Predicted_Masks/Pred_mask_01.jpg?raw=true)
+
+![Alt Text](./Predicted_Masks/Pred_mask_01.jpg)
